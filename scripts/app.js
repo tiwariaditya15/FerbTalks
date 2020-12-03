@@ -13,8 +13,8 @@ function errorHandle(error){
 }
 
 function outputDOM(json){
-    // console.log(json);
-    translatedText.value = json.contents.translated;
+    console.log(json);
+    translatedText.innerHTML = json.contents.translated;
 }
 
 function callingAPI(){
